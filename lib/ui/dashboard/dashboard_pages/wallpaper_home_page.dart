@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:wallpaper_app/wallpaper_model.dart';
 
-import '../app_constants.dart';
-import '../app_routes.dart';
 import 'package:http/http.dart' as http;
+
+import '../../../app_constants.dart';
+import '../../../app_routes.dart';
 
 
 class WallpaperHomePage extends StatelessWidget{

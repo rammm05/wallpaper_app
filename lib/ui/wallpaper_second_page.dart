@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wallpaper_app/ui/wallpaper_home_page.dart';
 
 import '../app_routes.dart';
+import 'dashboard/dashboard_pages/wallpaper_home_page.dart';
 
 class WallpaperSecondPage extends StatelessWidget{
 

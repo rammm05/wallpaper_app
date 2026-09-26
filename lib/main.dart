@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: AppRoutes.mRoots,
-      initialRoute: AppRoutes.route_home,
+      initialRoute: AppRoutes.route_dashboard_bottom_nav,
+      //home: DashboardBottomNav(),
       debugShowCheckedModeBanner: false,
     );
   }
